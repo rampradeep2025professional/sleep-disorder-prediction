@@ -176,7 +176,7 @@ Evaluated using 5-Fold Stratified Cross-Validation on the training set (299 samp
 
 ### Step 1: Clone Repository
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/rampradeep2025professional/sleep-disorder-prediction.git
 cd sleep-disorder-classification
 ```
 
@@ -251,13 +251,12 @@ git commit -m "Build sleep disorder classification ML project"
 # 4. Set main branch
 git branch -M main
 
-# 5. Link your GitHub repository (replace with your real repo URL)
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
+# 5. Link your GitHub repository
+git remote add origin https://github.com/rampradeep2025professional/sleep-disorder-prediction.git
 
 # 6. Push to GitHub
 git push -u origin main
 ```
-> **Note:** Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL (e.g. `https://github.com/your-username/sleep-disorder-classification.git`).
 
 ---
 
@@ -265,7 +264,7 @@ git push -u origin main
 1. Commit and push the repository to GitHub following Section 17.
 2. Navigate to [Streamlit Community Cloud](https://share.streamlit.io/) and log in with your GitHub account.
 3. Click **"New App"**.
-4. In **Repository**, select your repository: `your-username/sleep-disorder-classification`.
+4. In **Repository**, select your repository: `rampradeep2025professional/sleep-disorder-prediction`.
 5. In **Branch**, select `main`.
 6. In **Main file path**, enter `app.py`.
 7. Click **"Deploy!"**.

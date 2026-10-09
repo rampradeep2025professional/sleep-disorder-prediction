@@ -1,0 +1,122 @@
+{
+  "best_model": "Random Forest",
+  "random_state": 42,
+  "test_size": 0.2,
+  "classes": [
+    "Insomnia",
+    "None",
+    "Sleep Apnea"
+  ],
+  "summary_metrics": {
+    "Model": "Random Forest",
+    "CV Accuracy": 0.8762,
+    "CV Macro F1": 0.8491,
+    "Test Accuracy": 0.96,
+    "Test Macro Precision": 0.937,
+    "Test Macro Recall": 0.9347,
+    "Test Macro F1": 0.9352,
+    "Test Weighted F1": 0.9599
+  },
+  "classification_report": {
+    "Insomnia": {
+      "precision": 0.9285714285714286,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.896551724137931,
+      "support": 15.0
+    },
+    "None": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 44.0
+    },
+    "Sleep Apnea": {
+      "precision": 0.8823529411764706,
+      "recall": 0.9375,
+      "f1-score": 0.9090909090909091,
+      "support": 16.0
+    },
+    "accuracy": 0.96,
+    "macro avg": {
+      "precision": 0.9369747899159663,
+      "recall": 0.9347222222222222,
+      "f1-score": 0.9352142110762801,
+      "support": 75.0
+    },
+    "weighted avg": {
+      "precision": 0.9606162464985993,
+      "recall": 0.96,
+      "f1-score": 0.9599164054336469,
+      "support": 75.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      13,
+      0,
+      2
+    ],
+    [
+      0,
+      44,
+      0
+    ],
+    [
+      1,
+      0,
+      15
+    ]
+  ],
+  "all_models_comparison": [
+    {
+      "Model": "Random Forest",
+      "CV Accuracy": 0.8762,
+      "CV Macro F1": 0.8491,
+      "Test Accuracy": 0.96,
+      "Test Macro Precision": 0.937,
+      "Test Macro Recall": 0.9347,
+      "Test Macro F1": 0.9352,
+      "Test Weighted F1": 0.9599
+    },
+    {
+      "Model": "Gradient Boosting",
+      "CV Accuracy": 0.8762,
+      "CV Macro F1": 0.8483,
+      "Test Accuracy": 0.9467,
+      "Test Macro Precision": 0.9163,
+      "Test Macro Recall": 0.9271,
+      "Test Macro F1": 0.9214,
+      "Test Weighted F1": 0.9472
+    },
+    {
+      "Model": "K-Nearest Neighbors",
+      "CV Accuracy": 0.8562,
+      "CV Macro F1": 0.8254,
+      "Test Accuracy": 0.9333,
+      "Test Macro Precision": 0.8983,
+      "Test Macro Recall": 0.9196,
+      "Test Macro F1": 0.9082,
+      "Test Weighted F1": 0.9347
+    },
+    {
+      "Model": "Logistic Regression",
+      "CV Accuracy": 0.8828,
+      "CV Macro F1": 0.86,
+      "Test Accuracy": 0.9333,
+      "Test Macro Precision": 0.9077,
+      "Test Macro Recall": 0.9182,
+      "Test Macro F1": 0.9076,
+      "Test Weighted F1": 0.9341
+    },
+    {
+      "Model": "Decision Tree",
+      "CV Accuracy": 0.8594,
+      "CV Macro F1": 0.8329,
+      "Test Accuracy": 0.9333,
+      "Test Macro Precision": 0.9042,
+      "Test Macro Recall": 0.9091,
+      "Test Macro F1": 0.8995,
+      "Test Weighted F1": 0.9329
+    }
+  ]
+}
